@@ -1,0 +1,307 @@
+Time: Sun Sep 22 2024 14:41:54 GMT+0300 (Israel Daylight Time)
+Message: Route /api/register/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 22 2024 14:41:54 GMT+0300 (Israel Daylight Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:29:15 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/vacations/register not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:29:34 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/register not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:29:45 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:30:36 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/register not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:30:41 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/register not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:30:51 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/vacations/register not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:30:55 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/vacations/register not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:31:03 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/vacations/users not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:31:10 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/users not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 12:37:26 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 13:25:26 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/login/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 13:25:37 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/register/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 13:27:59 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/login/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 13:27:59 GMT+0300 (Eastern European Summer Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Sun Sep 29 2024 13:28:33 GMT+0300 (Eastern European Summer Time)
+Message: Route /api/register/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Mon Nov 18 2024 11:13:14 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/register/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Nov 20 2024 14:42:36 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/users not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Nov 20 2024 14:43:42 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/users not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Nov 20 2024 14:46:18 GMT+0200 (Eastern European Standard Time)
+Message: UserModel validation failed: password: password too long
+Stack: ValidationError: UserModel validation failed: password: password too long
+    at model.Document.invalidate (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\document.js:3318:32)
+    at C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\document.js:3079:17
+    at C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+---------------------------------------
+
+Time: Wed Nov 20 2024 14:47:13 GMT+0200 (Eastern European Standard Time)
+Message: UserModel validation failed: password: password too long
+Stack: ValidationError: UserModel validation failed: password: password too long
+    at model.Document.invalidate (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\document.js:3318:32)
+    at C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\document.js:3079:17
+    at C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+---------------------------------------
+
+Time: Wed Nov 20 2024 14:47:44 GMT+0200 (Eastern European Standard Time)
+Message: UserModel validation failed: password: password too long
+Stack: ValidationError: UserModel validation failed: password: password too long
+    at model.Document.invalidate (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\document.js:3318:32)
+    at C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\document.js:3079:17
+    at C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\mongoose\lib\schemaType.js:1388:9
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+---------------------------------------
+
+Time: Wed Nov 20 2024 14:59:10 GMT+0200 (Eastern European Standard Time)
+Message: Bad escaped character in JSON at position 226 (line 7 column 22)
+Stack: SyntaxError: Bad escaped character in JSON at position 226 (line 7 column 22)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:520:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+---------------------------------------
+
+Time: Thu Nov 21 2024 13:27:38 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Cast to string failed for value "{
+  name: 'paris.webp',
+  data: <Buffer 52 49 46 46 aa 29 02 00 57 45 42 50 56 50 38 20 9e 29 02 00 d0 2f 07 9d 01 2a e9 04 42 03 3e 9d 46 9c 4a 25 a3 af 2b ab 96 79 c1 e0 13 89 64 6e 73 cc ... 141696 more bytes>,
+  size: 141746,
+  encoding: '7bit',
+  tempFilePath: '',
+  truncated: false,
+  mimetype: 'image/webp',
+  md5: '79a80973e61e3d6cb36682d82653b6d3',
+  mv: [Function: mv]
+}" (type Object) at path "image"
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 21 2024 13:30:06 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Cast to string failed for value "{
+  name: 'paris.jpg',
+  data: <Buffer 52 49 46 46 aa 29 02 00 57 45 42 50 56 50 38 20 9e 29 02 00 d0 2f 07 9d 01 2a e9 04 42 03 3e 9d 46 9c 4a 25 a3 af 2b ab 96 79 c1 e0 13 89 64 6e 73 cc ... 141696 more bytes>,
+  size: 141746,
+  encoding: '7bit',
+  tempFilePath: '',
+  truncated: false,
+  mimetype: 'image/jpeg',
+  md5: '79a80973e61e3d6cb36682d82653b6d3',
+  mv: [Function: mv]
+}" (type Object) at path "image"
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:45:39 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:46:03 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:46:11 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:46:43 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:49:06 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:49:19 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/login/ not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:49:19 GMT+0200 (Eastern European Standard Time)
+Message: Route /favicon.ico not found.
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 12:55:10 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Tue Nov 26 2024 13:43:26 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 11:24:19 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 11:25:36 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 11:31:51 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 11:32:04 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 11:38:05 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 11:41:46 GMT+0200 (Eastern European Standard Time)
+Message: incorrect email or password
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 11:45:07 GMT+0200 (Eastern European Standard Time)
+Message: undefined
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 17:51:36 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 17:51:45 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 20:28:47 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Thu Nov 28 2024 20:28:51 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 01 2024 09:34:25 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 01 2024 10:32:52 GMT+0200 (Eastern European Standard Time)
+Message: Cannot convert undefined or null to object
+Stack: TypeError: Cannot convert undefined or null to object
+    at Cyber.generateNewToken (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\src\2-utils\cyber.ts:20:5)
+    at UserService.<anonymous> (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\src\4-services\user-service.ts:38:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Tal-shahar\Documents\JohnBryce\Project3 mongoDB\Backend\src\4-services\user-service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+---------------------------------------
+
+Time: Sun Dec 01 2024 13:19:57 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 01 2024 13:32:14 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 01 2024 13:32:25 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
+Time: Sun Dec 01 2024 13:34:08 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
