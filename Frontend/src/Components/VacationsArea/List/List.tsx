@@ -166,24 +166,44 @@ function List(): JSX.Element {
                         <MenuItem onClick={handleToggleUpcoming}>Upcoming Vacations</MenuItem>
                     </Menu>
 
-                    {/* Only show the "Add Vacation" button if the user is an admin */}
+                    {/* Only show the "Reports" button and "Add Vacation" button if the user is an admin */}
                     {user && user.roleId === Role.Admin && (
-                        <Grid item>
-                            <Button
-                                variant="contained"
-                                color="success"
-                                sx={{
-                                    backgroundColor: '#0097a7', // Medium Turquoise
-                                    "&:hover": {
-                                        backgroundColor: '#0097a7', // Darker Turquoise
-                                    },
-                                }}
-                                component={NavLink}
-                                to="/add-vacation"
-                            >
-                                Add Vacation
-                            </Button>
-                        </Grid>
+                        <>
+                            {/* Reports button */}
+                            <Grid item>
+                                <Button
+                                    variant="contained"
+                                    sx={{
+                                        backgroundColor: '#0097a7', // Medium Turquoise
+                                        "&:hover": {
+                                            backgroundColor: '#0097a7', // Darker Turquoise
+                                        },
+                                    }}
+                                    component={NavLink}
+                                    to="/report" // Link to the admin reports page
+                                >
+                                    Reports
+                                </Button>
+                            </Grid>
+
+                            {/* Add Vacation button */}
+                            <Grid item>
+                                <Button
+                                    variant="contained"
+                                    color="success"
+                                    sx={{
+                                        backgroundColor: '#0097a7', // Medium Turquoise
+                                        "&:hover": {
+                                            backgroundColor: '#0097a7', // Darker Turquoise
+                                        },
+                                    }}
+                                    component={NavLink}
+                                    to="/add-vacation"
+                                >
+                                    Add Vacation
+                                </Button>
+                            </Grid>
+                        </>
                     )}
                 </Grid>
             </Box>

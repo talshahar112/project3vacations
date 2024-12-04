@@ -335,3 +335,8 @@ Message: _id 6748429d65e806f5d2c0ff29 not exist.
 Stack: undefined
 ---------------------------------------
 
+Time: Wed Dec 04 2024 21:24:55 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image
+Stack: undefined
+---------------------------------------
+
