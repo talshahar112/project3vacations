@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "0d4e095c-0c87-4f19-8873-5423f4a3133b",
+		"name": "vacations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32998739"
+	},
+	"item": [
+		{
+			"name": "add user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n    \"firstName\": \"eden\",\r\n    \"lastName\": \"cohen\",\r\n    \"email\": \"eden@gmail.com\",\r\n    \"password\": \"Eden@12345\",\r\n    \"roleId\": \"2\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add vacation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "destination",
+							"value": "Paris",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "A romantic vacation at Paris",
+							"type": "text"
+						},
+						{
+							"key": "startDate",
+							"value": "2024-10-22T00:00:00.000+00:00",
+							"type": "text"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-10-22T00:00:00.000+00:00",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "300",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Tal-shahar/Documents/JohnBryce/project3vacations/images/paris.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/vacations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"vacations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all vacations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/vacations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"vacations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete vacation",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/vacations/6748429d65e806f5d2c0ff29",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"vacations",
+						"6748429d65e806f5d2c0ff29"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit vacation",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"destination\": \"Thailand bangkok\",\r\n        \"description\": \"An interesting trip to Thailand\",\r\n        \"startDate\": \"2024-11-29T00:00:00.000Z\",\r\n        \"endDate\": \"2024-12-13T00:00:00.000Z\",\r\n        \"price\": 2000,\r\n        \"image\": \"http://localhost:4000/api/vacations/images/thailand.jpg\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/vacations/6748432565e806f5d2c0ff2c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"vacations",
+						"6748432565e806f5d2c0ff2c"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -305,3 +305,33 @@ Message: VacationModel validation failed: image: Missing image
 Stack: undefined
 ---------------------------------------
 
+Time: Wed Dec 04 2024 14:59:07 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/vacations not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Dec 04 2024 15:04:47 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/users not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Dec 04 2024 15:08:41 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/users not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Dec 04 2024 15:08:49 GMT+0200 (Eastern European Standard Time)
+Message: Route /api/login not found.
+Stack: undefined
+---------------------------------------
+
+Time: Wed Dec 04 2024 15:12:28 GMT+0200 (Eastern European Standard Time)
+Message: VacationModel validation failed: image: Missing image, price: Missing price, endDate: Missing end date, startDate: Missing start date, description: Missing description, destination: Missing destination
+Stack: undefined
+---------------------------------------
+
+Time: Wed Dec 04 2024 15:30:26 GMT+0200 (Eastern European Standard Time)
+Message: _id 6748429d65e806f5d2c0ff29 not exist.
+Stack: undefined
+---------------------------------------
+

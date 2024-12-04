@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "6748432565e806f5d2c0ff2c"
+  },
+  "destination": "Thailand",
+  "description": "An interesting trip to Thailand",
+  "startDate": {
+    "$date": "2024-11-29T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-12-13T00:00:00.000Z"
+  },
+  "price": 1000,
+  "image": "http://localhost:4000/api/vacations/images/thailand.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c10e365e806f5d2c0ff60"
+  },
+  "destination": "Tel Aviv",
+  "description": "sea and sun",
+  "startDate": {
+    "$date": "2024-12-08T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "price": 102,
+  "image": "http://localhost:4000/api/vacations/images/TLV.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c123b65e806f5d2c0ff65"
+  },
+  "destination": "India",
+  "description": "trip to india",
+  "startDate": {
+    "$date": "2024-12-15T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "price": 1200,
+  "image": "http://localhost:4000/api/vacations/images/india.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c128465e806f5d2c0ff67"
+  },
+  "destination": "santorini",
+  "description": "vacation at santorini, greece",
+  "startDate": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-01-01T00:00:00.000Z"
+  },
+  "price": 200,
+  "image": "http://localhost:4000/api/vacations/images/santorini.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c12a465e806f5d2c0ff69"
+  },
+  "destination": "Rome",
+  "description": "rome, italy",
+  "startDate": {
+    "$date": "2025-02-11T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "price": 400,
+  "image": "http://localhost:4000/api/vacations/images/rome.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c13ab65e806f5d2c0ff6b"
+  },
+  "destination": "Thailand",
+  "description": "beutiful thailand",
+  "startDate": {
+    "$date": "2025-01-30T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-02-13T00:00:00.000Z"
+  },
+  "price": 780,
+  "image": "http://localhost:4000/api/vacations/images/thailand.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c13e565e806f5d2c0ff6d"
+  },
+  "destination": "paris",
+  "description": "romantic vacation",
+  "startDate": {
+    "$date": "2025-01-13T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-01-20T00:00:00.000Z"
+  },
+  "price": 600,
+  "image": "http://localhost:4000/api/vacations/images/paris.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c140f65e806f5d2c0ff6f"
+  },
+  "destination": "Tel Aviv",
+  "description": "orbanic vacation",
+  "startDate": {
+    "$date": "2024-12-15T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "price": 300,
+  "image": "http://localhost:4000/api/vacations/images/TLV.jpg"
+},
+{
+  "_id": {
+    "$oid": "674c42b41580ab0a63f091cb"
+  },
+  "destination": "Brazil",
+  "description": "trip to brazil",
+  "startDate": {
+    "$date": "2025-02-19T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-28T00:00:00.000Z"
+  },
+  "price": 2500,
+  "image": "http://localhost:4000/api/vacations/images/brazil.jpg"
+},
+{
+  "_id": {
+    "$oid": "675052459ab426a784e5714e"
+  },
+  "destination": "Paris",
+  "description": "A romantic vacation at Paris",
+  "startDate": {
+    "$date": "2024-10-22T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-10-22T00:00:00.000Z"
+  },
+  "price": 300,
+  "image": "http://localhost:4000/api/vacations/images/paris.jpg"
+},
+{
+  "_id": {
+    "$oid": "675056019ab426a784e57160"
+  },
+  "destination": "athens",
+  "description": "A trip through the antiquities and history of Athens",
+  "startDate": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-12-30T00:00:00.000Z"
+  },
+  "price": 1250,
+  "image": "http://localhost:4000/api/vacations/images/athens.jpg"
+},
+{
+  "_id": {
+    "$oid": "6750566c9ab426a784e57162"
+  },
+  "destination": "Munich",
+  "description": "Interesting trip to Munich",
+  "startDate": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-12-09T00:00:00.000Z"
+  },
+  "price": 248,
+  "image": "http://localhost:4000/api/vacations/images/munich.jpg"
+},
+{
+  "_id": {
+    "$oid": "675056c09ab426a784e57164"
+  },
+  "destination": "London",
+  "description": "A weekend in London, including museums and entrance to sites",
+  "startDate": {
+    "$date": "2024-12-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-12-23T00:00:00.000Z"
+  },
+  "price": 499,
+  "image": "http://localhost:4000/api/vacations/images/london.jpg"
+}]
