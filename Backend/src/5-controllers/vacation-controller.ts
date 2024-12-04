@@ -6,7 +6,6 @@ import { StatusCode } from '../3-models/enums'
 import { UploadedFile } from 'express-fileupload'
 import path from 'path'
 import { appConfig } from '../2-utils/app-config'
-import { fileSaver } from 'uploaded-file-saver'
 
 class VacationController {
     public readonly router = express.Router()
@@ -37,29 +36,21 @@ private async addVacation(request: Request, response: Response, next: NextFuncti
             return response
                 .status(StatusCode.BadRequest)
                 .json({message:"image is required"})
-                // respond with an error if no image is uploaded
         }
        const imageFile = request.files.image as UploadedFile
-    //    cast the uploaded file to the uploaded file type
        const imagePath = path.join(__dirname, "..", "1-assets", imageFile.name)
-    //    define the path to uploaded image
        imageFile.mv(imagePath, (err) => {
         if (err) {
             return next(err)
-            // handle errors during file saving
         }
        })
        const imageName = appConfig.baseImageUrl + imageFile.name.trim()
-    //    construct the image url to store in the image DB
        const vacation = new VacationModel({
         ...request.body,
         image: imageName
        })
-    //   create a new vacation instance with the provided data and image url 
        const addedVacation = await vacationService.addVacation(vacation)
-    //    call the service to add the vacation to the DB
        response.status(StatusCode.Created).json(addedVacation)
-    //    respond with HTTP 201 status and the added vacation data
     }
     catch (err: any) {
         console.log(err)
@@ -71,26 +62,20 @@ private async editVacation(request: Request, response: Response, next: NextFunct
     try {
         const _id = request.params._id
         request.body._id = _id
-        // check if there is a new image file
         let imageName: string | undefined = undefined
         if (request.files && request.files.image) {
             const imageFile = request.files.image as UploadedFile
-            // generate image path and move the image to the server
             const imagePath = path.join(__dirname, "..", "1-assets", imageFile.name)
             imageFile.mv(imagePath, (err) => {
                 if (err) {
                     return next(err)
                 }
             })
-            // create the image URL to be stored in the DB 
             imageName = appConfig.baseImageUrl + imageFile.name.trim()
         }
-        // if an image is provided, update the image field
         const updatedVacationData = {...request.body, ...(imageName && {image: imageName})} //only include image if a new one is uploaded
         const vacation = new VacationModel(updatedVacationData)
-        // call the service to update the vacation
         const updatedVacation = await vacationService.editVacation(vacation)
-        // send the updated vacation back to the client
         response.json(updatedVacation)
     }
     catch (err: any) {
@@ -110,14 +95,10 @@ private async deleteVacation(request: Request, response: Response, next: NextFun
 }
 
 private async getVacationImage(request: Request, response: Response, next: NextFunction) {
-    // handler to retrieve an image file by its name
     try {
         const imageName = request.params.image
-        // extract the image name from the request parameter
         const imagePath = await vacationService.getVacationImage(imageName)
-        // image path get the full path from the service
         response.sendFile(imagePath)
-        // send the image file as a respond
         }
     catch (err: any) {
      next(err);

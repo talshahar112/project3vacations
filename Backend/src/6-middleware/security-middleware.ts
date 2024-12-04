@@ -4,8 +4,6 @@ import { UnauthorizedError } from "../3-models/client-errors";
 
 class SecurityMiddleware {
 
-    // Verify user logged in (authorization: "Bearer <the-token>"):
-    //                                        01234567
     public verifyLoggedIn(request: Request, response: Response, next: NextFunction): void {
 
         // Get authorization header: 
