@@ -19,10 +19,10 @@ function Layout(): JSX.Element {
             </Box>
 
             {/* Footer Section */}
-                <Typography variant="body2" color="white">
-                    <Copyrights />
-                </Typography>
+            <Box sx={{ backgroundColor: '#1976d2', padding: 2 }}>
+                <Copyrights />
             </Box>
+        </Box>
     );
 }
 

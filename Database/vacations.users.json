@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6745b438c8cb3133bfa0ae3d"
+  },
+  "firstName": "nir",
+  "lastName": "levi",
+  "email": "nir@gmail.com",
+  "password": "93eea7a9d733a31148b52add3b8dd1834a3e26b80394b9dca667e1b0c9c7ced91073d055b8ccc33333212cd186abd1e640138b6a9ffd84b2a9e76d424c61dc3a",
+  "roleId": 2
+},
+{
+  "_id": {
+    "$oid": "674836a558c3ec1b088c499b"
+  },
+  "firstName": "adi",
+  "lastName": "vanunu",
+  "email": "adi@gmail.com",
+  "password": "7d98229c3005dfad6a04113be62ea292f36b18ecc49e4b274081106befdd6d97f7d5521329ec6dec0daca912e4b267975335e9a1c20ac3551719d845d885ea09",
+  "roleId": 2
+},
+{
+  "_id": {
+    "$oid": "6748418f65e806f5d2c0ff22"
+  },
+  "firstName": "tal-shahar",
+  "lastName": "malka",
+  "email": "talshahar112@gmail.com",
+  "password": "26ec2859ba95da7398c60153b78d47eaaaf2e6d3b771c95915b5b21f18d19f4b6522d7c6bfbda43d8f122f6f18da100ac50b8b0aa9272e315d6d94b81f923e00",
+  "roleId": 1
+},
+{
+  "_id": {
+    "$oid": "6748437a65e806f5d2c0ff39"
+  },
+  "firstName": "adiel",
+  "lastName": "malka",
+  "email": "adiel@gmail.com",
+  "password": "a78e15ee9e4ff787569d82ba7e7ecbf8640e8546d7fb89e580a0d6ad9cd0ed169f99430570ff75dcfa1d4f6f3e247680337e9a04e8f8cca29bedf6137555fe2b",
+  "roleId": 2
+},
+{
+  "_id": {
+    "$oid": "674c147665e806f5d2c0ffa4"
+  },
+  "firstName": "lior",
+  "lastName": "bass",
+  "email": "lior@gmail.com",
+  "password": "d5eb16c326079b8b4a03364e651a1b4332d4c44b9dbbd56d10ad793e5e14bab35b843eeedc8c760ceee0c8969e8cb2ed13d541148b0e8ada37ed245f05feb672",
+  "roleId": 2
+},
+{
+  "_id": {
+    "$oid": "67502a389ab426a784e5713e"
+  },
+  "firstName": "shalom",
+  "lastName": "levi",
+  "email": "shalom@gmail.com",
+  "password": "434ff9cc141c96d63d5bbec2840cc00ff5e25087db0edc85ebe33f8dddb211271d1f798d500f92448c024a5daefafe54e319e370897c741a6e0d824ec62baf35",
+  "roleId": 2
+},
+{
+  "_id": {
+    "$oid": "675053f69ab426a784e57150"
+  },
+  "firstName": "eden",
+  "lastName": "cohen",
+  "email": "eden@gmail.com",
+  "password": "06f79f3cbbdce1aeb7987475ff17ce56607e32418c59e6a51e125c1fcac0ade07a73ec07180153eb84079aaa03e02200500d1c35955d5b007b7cad3ad4162e67",
+  "roleId": 2
+}]

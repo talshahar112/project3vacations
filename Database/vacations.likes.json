@@ -1,0 +1,176 @@
+[{
+  "_id": {
+    "$oid": "6748436165e806f5d2c0ff34"
+  },
+  "userId": {
+    "$oid": "674836a558c3ec1b088c499b"
+  },
+  "vacationId": {
+    "$oid": "6748429d65e806f5d2c0ff29"
+  }
+},
+{
+  "_id": {
+    "$oid": "6748436265e806f5d2c0ff36"
+  },
+  "userId": {
+    "$oid": "674836a558c3ec1b088c499b"
+  },
+  "vacationId": {
+    "$oid": "6748432565e806f5d2c0ff2c"
+  }
+},
+{
+  "_id": {
+    "$oid": "6748b60c65e806f5d2c0ff50"
+  },
+  "userId": {
+    "$oid": "6748437a65e806f5d2c0ff39"
+  },
+  "vacationId": {
+    "$oid": "6748432565e806f5d2c0ff2c"
+  }
+},
+{
+  "_id": {
+    "$oid": "6748b61d65e806f5d2c0ff58"
+  },
+  "userId": {
+    "$oid": "6748437a65e806f5d2c0ff39"
+  },
+  "vacationId": {
+    "$oid": "673f26814c78dff4631fd698"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c144365e806f5d2c0ff8c"
+  },
+  "userId": {
+    "$oid": "674836a558c3ec1b088c499b"
+  },
+  "vacationId": {
+    "$oid": "674c13e565e806f5d2c0ff6d"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c144465e806f5d2c0ff8e"
+  },
+  "userId": {
+    "$oid": "674836a558c3ec1b088c499b"
+  },
+  "vacationId": {
+    "$oid": "674c140f65e806f5d2c0ff6f"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c145965e806f5d2c0ff9f"
+  },
+  "userId": {
+    "$oid": "6748437a65e806f5d2c0ff39"
+  },
+  "vacationId": {
+    "$oid": "674c123b65e806f5d2c0ff65"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c145a65e806f5d2c0ffa1"
+  },
+  "userId": {
+    "$oid": "6748437a65e806f5d2c0ff39"
+  },
+  "vacationId": {
+    "$oid": "674c140f65e806f5d2c0ff6f"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c147e65e806f5d2c0ffbd"
+  },
+  "userId": {
+    "$oid": "674c147665e806f5d2c0ffa4"
+  },
+  "vacationId": {
+    "$oid": "674c10e365e806f5d2c0ff60"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c148465e806f5d2c0ffc0"
+  },
+  "userId": {
+    "$oid": "674c147665e806f5d2c0ffa4"
+  },
+  "vacationId": {
+    "$oid": "6748432565e806f5d2c0ff2c"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c148665e806f5d2c0ffc2"
+  },
+  "userId": {
+    "$oid": "674c147665e806f5d2c0ffa4"
+  },
+  "vacationId": {
+    "$oid": "674c123b65e806f5d2c0ff65"
+  }
+},
+{
+  "_id": {
+    "$oid": "674c148765e806f5d2c0ffc4"
+  },
+  "userId": {
+    "$oid": "674c147665e806f5d2c0ffa4"
+  },
+  "vacationId": {
+    "$oid": "674c13e565e806f5d2c0ff6d"
+  }
+},
+{
+  "_id": {
+    "$oid": "6750b382f1123e60bb43306e"
+  },
+  "userId": {
+    "$oid": "675053f69ab426a784e57150"
+  },
+  "vacationId": {
+    "$oid": "6750566c9ab426a784e57162"
+  }
+},
+{
+  "_id": {
+    "$oid": "6750b383f1123e60bb433070"
+  },
+  "userId": {
+    "$oid": "675053f69ab426a784e57150"
+  },
+  "vacationId": {
+    "$oid": "675056019ab426a784e57160"
+  }
+},
+{
+  "_id": {
+    "$oid": "6750b384f1123e60bb433072"
+  },
+  "userId": {
+    "$oid": "675053f69ab426a784e57150"
+  },
+  "vacationId": {
+    "$oid": "674c140f65e806f5d2c0ff6f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6750b385f1123e60bb433074"
+  },
+  "userId": {
+    "$oid": "675053f69ab426a784e57150"
+  },
+  "vacationId": {
+    "$oid": "674c128465e806f5d2c0ff67"
+  }
+}]

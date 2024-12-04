@@ -7,6 +7,7 @@ import { VacationModel } from '../../../Models/VacationModel';
 import { Role } from '../../../Models/enums';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 import { CSVLink } from 'react-csv';
+import { NavLink } from 'react-router-dom';
 
 const AdminReport: React.FC = () => {
   const [vacationLikes, setVacationLikes] = useState<{ destination: string; likes: number }[]>([]);
@@ -35,7 +36,6 @@ const AdminReport: React.FC = () => {
   
     return () => clearInterval(intervalId); // Clean up the interval on component unmount
   }, [user]);
-  
 
   // CSV data preparation
   const csvData = vacationLikes.map(({ destination, likes }) => ({
@@ -44,38 +44,38 @@ const AdminReport: React.FC = () => {
   }));
 
   return (
-    <Box sx={{ padding: 3 }}>
+    <Box sx={{ padding: 3, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Typography variant="h4" gutterBottom>
         Vacation Likes Report
       </Typography>
       {user && user.roleId === Role.Admin ? (
         <>
           <Typography variant="h6">Likes for Each Vacation:</Typography>
-          <Box sx={{ marginBottom: 2 }}>
-          {vacationLikes.map((vacation) => (
-            <Typography key={vacation.destination}>
-              {vacation.destination}: {vacation.likes} likes
-            </Typography>
-           ))}
+          <Box sx={{ marginBottom: 2, textAlign: 'center' }}>
+            {vacationLikes.map((vacation) => (
+              <Typography key={vacation.destination}>
+                {vacation.destination}: {vacation.likes} likes
+              </Typography>
+            ))}
           </Box>
 
-          
           {/* Bar Chart */}
-          <BarChart
-            width={600}
-            height={300}
-            data={vacationLikes}
-            margin={{
-              top: 5, right: 30, left: 20, bottom: 5,
-            }}
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="destination" />
-            <YAxis />
-            <Tooltip />
-            <Bar dataKey="likes" fill="#8884d8" />
-          </BarChart>
-
+          <Box sx={{ display: 'flex', justifyContent: 'center', marginBottom: 2 }}>
+            <BarChart
+              width={600}
+              height={300}
+              data={vacationLikes}
+              margin={{
+                top: 5, right: 30, left: 20, bottom: 5,
+              }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="destination" />
+              <YAxis />
+              <Tooltip />
+              <Bar dataKey="likes" fill="#8884d8" />
+            </BarChart>
+          </Box>
 
           <CSVLink
             data={csvData}
@@ -87,6 +87,23 @@ const AdminReport: React.FC = () => {
               Download CSV
             </Button>
           </CSVLink>
+
+          {/* Back button */}
+          <Box sx={{ marginTop: 3 }}>
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor: '#0097a7', // Turquoise color
+                "&:hover": {
+                  backgroundColor: '#007f84', // Darker Turquoise on hover
+                },
+              }}
+              component={NavLink}
+              to="/list" // Link to the vacation list page
+            >
+              Back
+            </Button>
+          </Box>
         </>
       ) : (
         <Typography variant="h6" color="error">
@@ -97,4 +114,4 @@ const AdminReport: React.FC = () => {
   );
 };
 
-export default AdminReport;
+export default AdminReport;

@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "6748432565e806f5d2c0ff2c"
   },
-  "destination": "Thailand",
+  "destination": "Thailand bangkok",
   "description": "An interesting trip to Thailand",
   "startDate": {
     "$date": "2024-11-29T00:00:00.000Z"
@@ -10,23 +10,8 @@
   "endDate": {
     "$date": "2024-12-13T00:00:00.000Z"
   },
-  "price": 1000,
+  "price": 2000,
   "image": "http://localhost:4000/api/vacations/images/thailand.jpg"
-},
-{
-  "_id": {
-    "$oid": "674c10e365e806f5d2c0ff60"
-  },
-  "destination": "Tel Aviv",
-  "description": "sea and sun",
-  "startDate": {
-    "$date": "2024-12-08T00:00:00.000Z"
-  },
-  "endDate": {
-    "$date": "2024-12-12T00:00:00.000Z"
-  },
-  "price": 102,
-  "image": "http://localhost:4000/api/vacations/images/TLV.jpg"
 },
 {
   "_id": {
@@ -87,21 +72,6 @@
   },
   "price": 780,
   "image": "http://localhost:4000/api/vacations/images/thailand.jpg"
-},
-{
-  "_id": {
-    "$oid": "674c13e565e806f5d2c0ff6d"
-  },
-  "destination": "paris",
-  "description": "romantic vacation",
-  "startDate": {
-    "$date": "2025-01-13T00:00:00.000Z"
-  },
-  "endDate": {
-    "$date": "2025-01-20T00:00:00.000Z"
-  },
-  "price": 600,
-  "image": "http://localhost:4000/api/vacations/images/paris.jpg"
 },
 {
   "_id": {
@@ -192,4 +162,19 @@
   },
   "price": 499,
   "image": "http://localhost:4000/api/vacations/images/london.jpg"
+},
+{
+  "_id": {
+    "$oid": "6750b0deec67295cf78129e7"
+  },
+  "destination": "Lefkada",
+  "description": "summer trip to lefkada, Greece",
+  "startDate": {
+    "$date": "2025-06-24T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-27T00:00:00.000Z"
+  },
+  "price": 250,
+  "image": "http://localhost:4000/api/vacations/images/lefkada.jpg"
 }]
