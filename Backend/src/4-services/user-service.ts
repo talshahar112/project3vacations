@@ -4,10 +4,8 @@ import { CredentialsModel } from "../3-models/credentials-model";
 import { cyber } from "../2-utils/cyber";
 import { ConflictError, UnauthorizedError } from "../3-models/client-errors";
 
-// Deals with users:
 class UserService {
 
-    // Register new user: 
     public async register(user: IUserModel) {
 
         const existingUser = await UserModel.findOne({email:user.email}).exec()

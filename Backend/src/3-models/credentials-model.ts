@@ -8,5 +8,4 @@ export class CredentialsModel {
         this.password = user.password;
     }
 
-    // Add validation later...
 }
